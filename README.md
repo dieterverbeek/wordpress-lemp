@@ -23,11 +23,11 @@ This repository contains a Docker Compose configuration for setting up a LEMP (L
 
 3. Create the following directories:  (These directories are used to store Nginx logs, and data for WordPress and MySQL.)
 
-   sudo mkdir -p logs/
-   sudo mkdir -p logs/nginx
-   sudo mkdir -p data/
-   sudo mkdir -p data/html
-   sudo mkdir -p data/mysql
+   - sudo mkdir -p logs/
+   - sudo mkdir -p logs/nginx
+   - sudo mkdir -p data/
+   - sudo mkdir -p data/html
+   - sudo mkdir -p data/mysql
 
 
 4. Start the containers:
